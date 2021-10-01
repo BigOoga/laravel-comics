@@ -1,0 +1,30 @@
+@import "vars";
+#bottom-footer {
+  background-color: $footer-bgc;
+  height: 100px;
+}
+
+.btn-signup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border: 2px solid $dc-blue;
+  padding: 10px 15px;
+  height: 40px;
+  font-size: 20px;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+#bottom-footer ul li {
+  display: inline-block;
+
+  a {
+    padding: 30px 10px;
+    text-decoration: none;
+    color: grey;
+  }
+}

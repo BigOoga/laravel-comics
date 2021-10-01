@@ -1,0 +1,36 @@
+footer {
+  background-image: url("../assets/img/footer-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .container65 {
+    background-image: url("../assets/img/dc-logo-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  h2 {
+    color: white;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+
+    li {
+      list-style-type: none;
+      a {
+        text-decoration: none;
+        color: grey;
+      }
+    }
+  }
+}
+
+.container35 {
+  width: 35%;
+}
+
+.container65 {
+  min-width: 65%;
+}
