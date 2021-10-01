@@ -10,10 +10,9 @@
 <body>
  @include('includes.header')    
  @include('includes.jumbotron')    
-    
-
-
-
+<main>
+@yield('content')
+</main>
  @include('includes.services')    
  @include('includes.footer')    
  @include('includes.bottomfooter')    

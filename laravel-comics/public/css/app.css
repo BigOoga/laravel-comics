@@ -273,6 +273,13 @@ header ul li a.active, header ul li a:hover {
   border-bottom: 3px solid #0282f9;
 }
 
+.jumbotron {
+  background-image: url("../img/jumbotron.jpg");
+  background-position: top;
+  background-size: cover;
+  height: 300px;
+}
+
 #bottom-footer {
   background-color: #303030;
   height: 100px;
