@@ -7,8 +7,7 @@
       class="container d-flex justify-content-center align-items-center flex-wrap"
     >
       <div class="product-label fs-3 text-uppercase">Movies</div>
-      {{-- <div v-for="(comic, index) in comics" :key="index"> --}}
-        {{-- <ComicCard :card="comic" /> --}}
+     <p class="px-3 py-3 my-5">WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP </p>
       </div>
     </div>
   </section>
