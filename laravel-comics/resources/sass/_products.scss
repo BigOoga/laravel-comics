@@ -1,0 +1,17 @@
+#products {
+    background-color: #1c1c1c;
+    color: white;
+  
+    .container {
+      position: relative;
+    }
+  }
+  
+  .product-label {
+    position: absolute;
+    top: 0;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    background-color: $dc-blue;
+    padding: 6px 15px;
+  }

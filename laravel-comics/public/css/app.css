@@ -307,3 +307,33 @@ header ul li a.active, header ul li a:hover {
   text-decoration: none;
   color: grey;
 }
+
+#products {
+  background-color: #1c1c1c;
+  color: white;
+}
+#products .container {
+  position: relative;
+}
+
+.product-label {
+  position: absolute;
+  top: 0;
+  left: 15%;
+  transform: translate(-50%, -50%);
+  background-color: #0282f9;
+  padding: 6px 15px;
+}
+
+.comic-card {
+  max-width: 200px;
+  height: 236px;
+}
+.comic-card img {
+  height: 200px;
+  width: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+}
