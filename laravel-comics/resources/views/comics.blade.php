@@ -11,7 +11,7 @@
       
         <div class="comic-card px-3 py-3 my-5"
       >
-         <img src="{{ $comic['thumb']}}" alt="" /> 
+         <a href="{{ url("/comic/$loop->index") }}"><img src="{{ $comic['thumb']}}" alt="" /> </a>
         <h4>{{ $comic['title'] }}</h4>
       </div>
 

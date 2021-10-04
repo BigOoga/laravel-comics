@@ -180,3 +180,7 @@
 .font-weight-bold {
   font-weight: 700 !important;
 }
+
+.col-6{
+  width: calc(100% * 12 / 6);
+}

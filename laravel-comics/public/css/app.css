@@ -207,6 +207,10 @@
   font-weight: 700 !important;
 }
 
+.col-6 {
+  width: 200%;
+}
+
 footer {
   background-image: url("../img/footer-bg.jpg");
   background-repeat: no-repeat;
