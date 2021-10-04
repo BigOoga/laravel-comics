@@ -1,0 +1,20 @@
+@import "vars";
+
+#comic-details .overhead {
+    height: 70px;
+    background-color: $dc-blue;
+
+    .price-tag {
+        background-color: rgb(87, 212, 87);
+    }
+
+    .bottom {
+        background-color: #f6f6f6;
+    }
+
+    .comic-cover {
+        position: absolute;
+        bottom: 20px;
+        left: 400px;
+    }
+}

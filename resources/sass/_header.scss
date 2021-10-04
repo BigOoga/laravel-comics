@@ -1,0 +1,29 @@
+@import "vars";
+
+header {
+    ul {
+        margin: 0;
+    }
+
+    ul li {
+        display: inline-block;
+
+        a {
+            padding: 46px 10px;
+            text-decoration: none;
+            color: black;
+
+            &.active,
+            &:hover {
+                color: $dc-blue;
+                border-bottom: 3px solid $dc-blue;
+                text-decoration: none;
+            }
+
+            &:visited,
+            &:link {
+                text-decoration: none;
+            }
+        }
+    }
+}
